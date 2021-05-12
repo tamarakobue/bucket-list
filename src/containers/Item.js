@@ -15,9 +15,11 @@ const Item = props => {
     return (
         <div>
             <h1>{item.name}</h1>
-            <h3>Category: {item.category}</h3>
-            <h3>Ranking: {item.ranking}</h3>
-            <h3>Notes: {item.notes}</h3>
+            <ul className="theList">
+                <li><h3>Category: {item.category}</h3></li> 
+                <li><h3>Ranking: {item.ranking}</h3></li>
+                <li><h3>Notes: {item.notes}</h3></li>
+            </ul>
         </div>
     )
 }

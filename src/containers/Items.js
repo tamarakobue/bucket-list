@@ -16,7 +16,7 @@ const Items = () => {
     return (
         <div>
             <h1>My Bucket List</h1>
-            <ul>
+            <ul className="items-list">
                 {itemsList}
                 <Link to={"/items/new"}><button>Add New Item</button> </Link>
             </ul>

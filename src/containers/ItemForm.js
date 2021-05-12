@@ -41,9 +41,10 @@ const ItemForm = (props) => {
     // It does it by props.history.push("/items")
 
     return (
-        <div>
+        <div className="todoListMain">
+            <div className="header">
             <h1>Add New Bucket List Items</h1>
-        <form onSubmit={handleSubmit}> 
+            <form onSubmit={handleSubmit}> 
                 <input
                     type='text'
                     name='name'
@@ -74,6 +75,7 @@ const ItemForm = (props) => {
                 /><br />
                 <button type="submit"> Submit </button>
         </form>
+        </div>
         </div>
     )
 }
