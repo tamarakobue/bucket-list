@@ -1,5 +1,11 @@
+body {
+  background-color: #FFF;
+}
+
 .App {
+  padding-top: 150px;
   text-align: center;
+
 }
 
 .App-logo {
@@ -81,4 +87,13 @@ ul.theList {
   font-size: 1.3rem;
   position: relative;
   list-style: none;
+}
+
+nav {
+  background: #FFF;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem calc((100vw - 1000px) / 2);
+  z-index: 12;
 }

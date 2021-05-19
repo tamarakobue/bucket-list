@@ -27,6 +27,13 @@
       "ranking": "5",
       "notes": "Loose this weight.",
       "id": 4
+    },
+    {
+      "name": "Go to the zoo",
+      "category": "advanture",
+      "ranking": "3",
+      "notes": "Go on Wednesday as it is FREE!",
+      "id": 5
     }
   ]
 }
