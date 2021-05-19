@@ -34,6 +34,13 @@
       "ranking": "3",
       "notes": "Go on Wednesday as it is FREE!",
       "id": 5
+    },
+    {
+      "name": "Ride a Zip Line",
+      "category": "advanture",
+      "ranking": "5",
+      "notes": "Ride a Zip Line in an exotic country",
+      "id": 9
     }
   ]
 }

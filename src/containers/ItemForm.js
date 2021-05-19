@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Button from 'react-bootstrap/Button'
 
 const ItemForm = (props) => {
     const [item, setItem] = useState({})
@@ -8,10 +9,9 @@ const ItemForm = (props) => {
         ranking: "",
         notes: ""
     })
-//(e) =>setValue({...value, ranking: e.target.value})
+
 
     const handleChange = e => {
-        // e.target.name
         setValue({...value, [e.target.name]: e.target.value})
     }
 
@@ -35,10 +35,6 @@ const ItemForm = (props) => {
             })
           .catch((error) => console.error(error))
       };
-
-    // handleChange put everything i type as i type it into item in state
-    // onSUbmit call the handleSubmit and it will POST it in state and then redirected back to all the items. 
-    // It does it by props.history.push("/items")
 
     return (
         <div className="todoListMain">
@@ -73,7 +69,7 @@ const ItemForm = (props) => {
                     placeholder='Notes'
                     onChange={handleChange}
                 /><br />
-                <button type="submit"> Submit </button>
+                <Button type="submit" variant="outline-danger">Submit</Button>
         </form>
         </div>
         </div>

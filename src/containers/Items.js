@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import ListGroup from 'react-bootstrap/ListGroup'
+import Button from 'react-bootstrap/Button'
 
 
 const Items = () => {
@@ -23,7 +24,8 @@ const Items = () => {
             <h1>My Bucket List</h1>
             <ul className="items-list">
                 {itemsList}
-                <Link to={"/items/new"}><button>Add New Item</button> </Link>
+                <Link to={"/items/new"}>
+                <Button variant="dark">Add New Item</Button></Link>
             </ul>
         </div>
     )

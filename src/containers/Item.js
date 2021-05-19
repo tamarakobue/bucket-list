@@ -1,4 +1,6 @@
 import React, {useState, useEffect} from 'react'
+import Modal from 'react-bootstrap/Modal'
+import Button from 'react-bootstrap/Button'
 
 
 
@@ -15,12 +17,20 @@ const Item = props => {
 
     return (
         <div>
-            <h1>{item.name}</h1>
-            <ul className="theList">
-                <li><h3>Category: {item.category}</h3></li> 
-                <li><h3>Ranking: {item.ranking}</h3></li>
-                <li><h3>Notes: {item.notes}</h3></li>
-            </ul>
+            <Modal.Dialog>
+                    <Modal.Title>{item.name}</Modal.Title>
+                <Modal.Body>
+                    <h3 className="modal-items-list">Category:</h3>
+                    <h5 className="modal-items-list-text">{item.category}</h5>
+                    <h3 className="modal-items-list">Ranking: </h3>
+                    <h5 className="modal-items-list-text">{item.ranking}</h5>
+                    <h3 className="modal-items-list">Notes: </h3>
+                    <p className="modal-items-list-text">{item.notes}</p>
+                </Modal.Body>
+                <Modal.Footer>
+                    <Button variant="secondary" href="/items">Back</Button>
+                </Modal.Footer>
+            </Modal.Dialog>
         </div>
     )
 }

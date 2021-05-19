@@ -97,3 +97,12 @@ nav {
   padding: 0.2rem calc((100vw - 1000px) / 2);
   z-index: 12;
 }
+
+.modal-items-list {
+  text-align: left;
+  font-weight: bolder;
+}
+
+.modal-items-list-text {
+  text-align: left;
+}
