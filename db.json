@@ -40,7 +40,28 @@
       "category": "advanture",
       "ranking": "5",
       "notes": "Ride a Zip Line in an exotic country",
+      "id": 6
+    },
+    {
+      "name": "Swim with Dolphins",
+      "category": "advanture",
+      "ranking": "5",
+      "notes": "Get over fear of large animals and swim with the beautiful Dolphins",
+      "id": 7
+    },
+    {
+      "name": "Take son to Disney World",
+      "category": "travel",
+      "ranking": "4",
+      "notes": "Ride on every ride available with him.",
       "id": 9
+    },
+    {
+      "name": "Relax in a Natural Hot Spring",
+      "category": "self care",
+      "ranking": "5",
+      "notes": "I need a vacation",
+      "id": 10
     }
   ]
 }

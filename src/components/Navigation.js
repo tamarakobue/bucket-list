@@ -13,7 +13,8 @@ const Navigation = () => {
                 <Navbar.Brand href="/">BUCKETLIST</Navbar.Brand>
                 <Nav className="mr-auto">
                   <Nav.Link href="/">Home</Nav.Link>
-                  <Nav.Link href="/items">Bucket List Items</Nav.Link>
+                  <Nav.Link href="/items">Bucket List</Nav.Link>
+                  <Nav.Link href="/items/new">Add To List</Nav.Link>
                 </Nav>
               </Navbar>
             </>
